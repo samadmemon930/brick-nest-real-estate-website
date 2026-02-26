@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --prim-color: #6919dd;
+  --white: #fff;
+  --black: #000;
+  --text-color: #2f2956;
+  --pere-color: #696969;
+  --prim-gradient: linear
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--black);
+  z-index: 0;
+  transition: all .4s ease-in-out;
+}
+
+.btn:hover::after {
+  width: 100%;
+  right: auto;
+  left: 0;
+}
+
+.nav-menu li a {
+  position: relative;
+  padding: 10px;
+}
+
+/* underline (same as yours) */
+.nav-menu li a::after {
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 3px;
+  background-color: #6919dd;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* hover */
+.nav-menu li:hover a::after {
+  opacity: 1;
+  top: 0;
+}
+
+/* 🔥 MOBILE + INSPECT FIX (NO STYLE CHANGE) */
+.nav-menu li a:focus::after,
+.nav-menu li a:active::after {
+  opacity: 1;
+  top: 0;
+}
+
+.nav-menu li a:hover,
+.nav-menu li a:focus,
+.nav-menu li a:active {
+  color: #6919dd;
+}
+
+.swiper-wrapper {
+  padding: 30px 0;
+}
+
+.propertie-img-slider .swiper-wrapper {
+  padding: 0 !important;
+}
+
+.share-icons {
+  position: absolute;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  padding: 5px;
+  background-color: #6600ff;
+  transition: 0.4s;
+}
+
+.img {
+  transition: transform .35s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.service-item {
+  border: 1px solid #e7e7e7;
+  transition: all 0.3s ease-out;
+  will-change: transform;
+}
+
+.service-item:hover {
+  box-shadow: 0px 5px 70px 0px rgba(38,42,76,0.2);
+  border-color: transparent;
+  transform: translateY(-5px); /* optional smooth lift */
+  cursor: pointer;
+}
+
+/* Testimonials hover effect */
+.testimonial-card {
+  background: #fff;
+  padding: 45px;
+  border-radius: 1rem;
+  border: 1px solid #e4e0ff;
+  box-shadow: 0 10px 30px rgba(108, 99, 255, 0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.testimonial-card:hover,
+.testimonial-card:focus-visible,
+.testimonial-card:active {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 50px rgba(108, 99, 255, 0.18);
+}
+

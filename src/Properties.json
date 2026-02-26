@@ -1,0 +1,201 @@
+{
+  "spotlight": [
+    {
+      "id": 1,
+      "title": "Guru Ji Welfare",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "size": "190 ft²",
+      "price": "₹ 7,70,000",
+      "tag": "featured",
+      "images": [
+        "/Images/spotlight-property-1-1.jpg",
+        "Images/spotlight-property-1-2.jpg",
+        "/Images/spotlight-property-1-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Apparment in Lower Pune",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "size": "560 ft²",
+      "price": "₹ 6,50,000",
+      "tag": "featured",
+      "images": [
+        "/Images/spotlight-property-2-1.jpg",
+        "/Images/spotlight-property-2-2.jpg",
+        "/Images/spotlight-property-2-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "4 BHK Appartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "360 ft²",
+      "price": "₹ 6,10,000",
+      "tag": "featured",
+      "images": [
+        "/Images/spotlight-property-3-1.jpg",
+        "/Images/spotlight-property-3-2.jpg",
+        "/Images/spotlight-property-3-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "3 Rooms for Rent",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "800 ft²",
+      "price": "₹ 6,20,000",
+      "tag": "featured",
+      "images": [
+        "/Images/spotlight-property-4-1.jpg",
+        "/Images/spotlight-property-4-2.jpg",
+        "/Images/spotlight-property-4-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-4.jpg"
+    }
+  ],
+  "latest": [
+    {
+      "id": 1,
+      "title": "House in Paris Quartier",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "size": "190 ft²",
+      "price": "₹ 95,000",
+      "tag": "Featured",
+      "images": [
+        "/Images/property-1-1.jpg",
+        "/Images/property-1-2.jpg",
+        "/Images/property-1-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-2.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Beautiful Condo in Centeral Delhi",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "60 ft²",
+      "price": "₹ 75,000",
+      "tag": "Featured",
+      "images": [
+        "/Images/property-2-1.jpg",
+        "/Images/property-2-2.jpg",
+        "/Images/property-2-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-3.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Guru Ji Luxury Home",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "size": "1,900 ft²",
+      "price": "₹ 98,000",
+      "tag": "Featured",
+      "images": [
+        "/Images/property-3-1.jpg",
+        "/Images/property-3-2.jpg",
+        "/Images/property-3-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-4.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Guru Ji Welfare",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "size": "190 ft²",
+      "price": "₹ 750,000",
+      "tag": "featured",
+      "images": [
+        "/Images/property-4-1.jpg",
+        "/Images/property-4-2.jpg",
+        "/Images/property-4-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-5.jpg"
+    },
+    {
+      "id": 5,
+      "title": "3.5 BHK Appartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "150 ft²",
+      "price": "₹ 1,20,000",
+      "tag": "featured",
+      "images": [
+        "/Images/property-5-1.jpg",
+        "/Images/property-5-2.jpg",
+        "/Images/property-5-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "3 Rooms for Rent",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "450 ft²",
+      "price": "₹ 5,30,000",
+      "tag": "featured",
+      "images": [
+        "/Images/property-6-1.jpg",
+        "/Images/property-6-2.jpg",
+        "/Images/property-6-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-4.jpg"
+    },
+    {
+      "id": 7,
+      "title": "1 BHK Appartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "122 ft²",
+      "price": "₹ 22,000",
+      "tag": "featured",
+      "images": [
+        "/Images/property-7-1.jpg",
+        "/Images/property-7-2.jpg",
+        "/Images/property-7-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-3.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Luxury Home in Hyderabad",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "700 ft²",
+      "price": "₹ 700,000",
+      "tag": "featured",
+      "images": [
+        "/Images/property-8-1.jpg",
+        "/Images/property-8-2.jpg",
+        "/Images/property-8-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-5.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Beaytiful Property in Gurgaon",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "200 ft²",
+      "price": "₹ 1,60,000",
+      "tag": "featured",
+      "images": [
+        "/Images/property-9-1.jpg",
+        "/Images/property-9-2.jpg",
+        "/Images/property-9-3.jpg"
+      ],
+      "avatar": "/Images/property-owner-2.jpg"
+    }
+  ]
+}
